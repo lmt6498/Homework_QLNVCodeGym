@@ -1,6 +1,8 @@
 package com.codegym;
 
-public class NhanVien {
+import java.io.Serializable;
+
+public class NhanVien implements Serializable {
     String tenNhanVien;
     int tuoiNhanVien;
     String gioiTinh;
@@ -81,5 +83,15 @@ public class NhanVien {
                 ", email='" + email + '\'' +
                 ", luong=" + luong +
                 '}';
+    }
+    public void display(){
+        System.out.println("NhanVien{" +
+                "tenNhanVien='" + this.getTenNhanVien() + '\'' +
+                ", tuoiNhanVien=" + this.getTuoiNhanVien() +
+                ", gioiTinh='" + this.getGioiTinh() + '\'' +
+                ", soDienThoai='" + this.getSoDienThoai() + '\'' +
+                ", email='" + this.getEmail() + '\'' +
+                ", luong=" + this.getLuong() +
+                '}');
     }
 }

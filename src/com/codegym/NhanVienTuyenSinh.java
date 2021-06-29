@@ -52,4 +52,16 @@ public class NhanVienTuyenSinh extends NhanVien{
                 ", doanhThu=" + doanhThu +
                 '}';
     }
+    public void display(){
+        System.out.println("NhanVienTuyenSinh{" +
+                "tenNhanVien='" + this.getTenNhanVien() + '\'' +
+                ", tuoiNhanVien=" + this.getTuoiNhanVien() +
+                ", gioiTinh='" + this.getGioiTinh() + '\'' +
+                ", soDienThoai='" + this.getSoDienThoai() + '\'' +
+                ", email='" + this.getEmail() + '\'' +
+                ", luong=" + this.getLuong() +
+                ", soTuyenSinh=" + this.getSoTuyenSinh() +
+                ", doanhThu=" + this.getDoanhThu() +
+                '}');
+    }
 }

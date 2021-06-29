@@ -25,4 +25,15 @@ public class NhanVienFullTime extends NhanVienDaoTao {
                 ", nganh='" + nganh + '\'' +
                 '}';
     }
+    public void display(){
+        System.out.println("NhanVienFullTime{" +
+                "tenNhanVien='" + this.getTenNhanVien() + '\'' +
+                ", tuoiNhanVien=" + this.getTuoiNhanVien() +
+                ", gioiTinh='" + this.getGioiTinh() + '\'' +
+                ", soDienThoai='" + this.getSoDienThoai() + '\'' +
+                ", email='" + this.getEmail() + '\'' +
+                ", luong=" + this.getLuong() +
+                ", nganh=" + this.getNganh() +
+                '}');
+    }
 }

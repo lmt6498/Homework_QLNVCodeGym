@@ -34,4 +34,15 @@ public class NhanVienDaoTao extends NhanVien{
                 ", nganh='" + nganh + '\'' +
                 '}';
     }
+    public void display(){
+        System.out.println("NhanVienDaoTao{" +
+                "tenNhanVien='" + this.getTenNhanVien() + '\'' +
+                ", tuoiNhanVien=" + this.getTuoiNhanVien() +
+                ", gioiTinh='" + this.getGioiTinh() + '\'' +
+                ", soDienThoai='" + this.getSoDienThoai() + '\'' +
+                ", email='" + this.getEmail() + '\'' +
+                ", luong=" + this.getLuong() +
+                ", nganh=" + this.getNganh() +
+                '}');
+    }
 }

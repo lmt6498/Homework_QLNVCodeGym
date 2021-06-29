@@ -44,4 +44,16 @@ public class NhanVienPartTime extends NhanVienDaoTao{
                 ", time=" + time +
                 '}';
     }
+    public void display(){
+        System.out.println("NhanVienPartTime{" +
+                "tenNhanVien='" + this.getTenNhanVien() + '\'' +
+                ", tuoiNhanVien=" + this.getTuoiNhanVien() +
+                ", gioiTinh='" + this.getGioiTinh() + '\'' +
+                ", soDienThoai='" + this.getSoDienThoai() + '\'' +
+                ", email='" + this.getEmail() + '\'' +
+                ", luong=" + this.getLuong() +
+                ", nganh=" + this.getNganh() +
+                ", time=" + this.getTime() +
+                '}');
+    }
 }
